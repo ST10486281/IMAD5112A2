@@ -12,14 +12,15 @@ class Flashcard : AppCompatActivity() {
 
     // Questions and their correct answers
     private val questions = arrayOf(
-        "Nelson Mandela was the president in 1994",
-        "The Earth is flat",
-        "The sun rises in the west",
-        "Water boils at 100°C",
-        "Africa is a continent"
+        "Nelson Mandela became South Africa's first Black president in 1994",
+        "World War II ended in 1945",
+        "Julius Caesar was a king of Rome",
+        "The Great Wall of China was built to keep out invaders",
+        "The Berlin Wall fell in 1989"
     )
 
-    private val answers = booleanArrayOf(true, false, false, true, true)
+    private val answers = booleanArrayOf(true, true, false, true, true)
+
 
     // To keep track of the current question index
     private var currentIndex = 0
