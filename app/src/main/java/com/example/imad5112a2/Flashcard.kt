@@ -77,6 +77,8 @@ class Flashcard : AppCompatActivity() {
             } else {
                 Log.d("Flashcard", "All questions answered, going to Score screen")
                 val intent = Intent(this, Score::class.java)
+                intent.putExtra("questions", questions)
+                intent.putExtra("answers", answers)
                 startActivity(intent)
             }
         }
