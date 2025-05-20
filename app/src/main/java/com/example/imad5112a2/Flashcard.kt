@@ -12,7 +12,7 @@ class Flashcard : AppCompatActivity() {
 
     // Questions and their correct answers
     private val questions = arrayOf(
-        "Nelson Mandela became South Africa's first Black president in 1994",
+        "Nelson Mandela became president in 1994",
         "World War II ended in 1945",
         "Julius Caesar was a king of Rome",
         "The Great Wall of China was built to keep out invaders",
